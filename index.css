@@ -12,7 +12,9 @@ body {
   align-items: center;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: #f4d06f;
+  background: url("bball.jpg") no-repeat;
+  background-size: cover;
+  background-color: #f4d06f;
 }
 #app-wrapper {
   display: flex;
@@ -43,6 +45,7 @@ body {
   background: #1b244a;
   border-radius: 10px;
   border: 6px solid #587291;
+  opacity: 0.9;
 }
 
 #home-score,

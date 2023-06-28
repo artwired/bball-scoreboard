@@ -94,6 +94,11 @@ body {
   cursor: pointer;
 }
 
+#home-score-btns-container li:hover,
+#guest-score-btns-container li:hover {
+  background: #0cf574;
+  color: #587291;
+}
 .home-txt {
   color: #eeeeee;
   text-align: center;
